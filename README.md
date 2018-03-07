@@ -49,7 +49,7 @@ The following prerequisites are needed to try this out:
 5. Invoke the hello-function using the OpenWhisk CLI:
 
    ```bash
-   wsk action invoke hello-function --blocking --result
+   wsk action invoke hello-function --result
    {
        "hello": "world!"
    }
